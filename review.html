@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>체험후기</title>
+    <style>
+      @import url(maincss.css);
+      @import url(submenu.css);
+      @import url(login.css);
+      @import url(subtitle.css);
+      @import url(text.css);
+      @import url(subbmenu.css);
+      @import url(mainmenu.css);
+      .review {
+        max-width:700px;
+      }
+      .button {
+        float: right;
+        margin-right: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homepage.html"><img src="images/logo.jpg" width="270" height="200"></a>
+      </div>
+      <div class="title">
+        <h1>체험후기</h1>
+        <h5 id="login"><a href="account.html">회원가입</a></h5>
+        <h5 id="login"><a href="login.html">로그인</a></h5>
+        <hr>
+        <h2 id="mainmenu">
+          <ul>
+            <li class="menus"><a href="guide.html">자전거길 안내</a></li>
+            <li>|</li>
+            <li class="menus"><a href="safe.html">자전거 안전교육</a></li>
+            <li>|</li>
+            <li class="menus"><a href="info.html">안내사항</a></li>
+          </ul>
+        </h2>
+      </div>
+    </header>
+    <div id="contents">
+      <div class="submenu">
+        <h4>빠른 메뉴</h4>
+        <ul>
+          <li><a href="notice.html">공지사항</a></li>
+          <li><a href="review.html">체험후기</a></li>
+          <li><a href="qna.html">질의응답</a></li>
+          <li><a href="privacy.html">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+      <div class="review">
+        <div class="subtitle">체험후기</div><br>
+        가족, 연인, 친구와 함께 행복했던 자전거 여행후기를 올려주세요.
+        <form>
+          <textarea name="review" rows="20" cols="90"></textarea><br>
+          <div class="button">
+            <input type="submit"value="작성">
+            <input type="reset" value="취소">
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      copyright ⓒ 2018 by 11조 All Page Content is property of 11조
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+h1 {
+  display: inline-block;
+  font-size: 39px;
+  border-left-style: dotted;  /*테두리 왼쪽만*/
+  border-color: orange;
+  padding-left: 10px;
+}
+h2 {
+  display: inline-block;
+  font-size : 21px;
+  border-left-style: dotted;
+  padding-left: 10px;
+  border-color: yellow;
+}
+.title {
+  text-align: left;
+}
+.logo {  /*로고*/
+  display: inline-block;
+  border : 3px solid #81BEF7;
+  margin-right : 2%;
+  float: left;
+}
+header { /*헤더 그라데이션*/
+  background : linear-gradient(to right, #01A9DB, white);
+  border: 3px solid lightgray;
+}
+body {
+  border : 3px solid lightgray;
+}
+footer {
+  padding: 40px;
+  background-color : lightgray;
+  color : gray;
+}

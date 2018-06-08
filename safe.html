@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>safe</title>
+    <style>
+      @import url(maincss.css);
+      @import url(login.css);
+      @import url(mainmenu.css);
+      #contents {
+        text-align: center;
+      }
+      #lists {
+        display: inline-block;
+      }
+      .hr{
+        clear : both;
+      }
+      .list{
+        margin-top : 50px;
+        margin-right : 30px;
+        padding-top : 1px;
+        margin-bottom : 10%;
+        text-align : center;
+        width : 300px;
+        height : 320px;
+        float : left;
+        background : lightblue;
+      }
+      .list ul{
+        list-style-position : inside;
+        list-style-type : decimal;
+      }
+      .list li{
+        margin-left : -35px;
+        margin-bottom : 20px;
+        color : white;
+      }
+      .bold{
+        margin-top : 40px;
+        color : yellow;
+        font-size : 1.5em;
+        font-weight : bold;
+      }
+      .list2{
+        margin-top : 50px;
+        padding-top : 1px;
+        margin-bottom : 10%;
+        text-align : center;
+        width : 300px;
+        height : 320px;
+        float : left;
+        background : lightgray;
+      }
+      .list2 ul{
+        list-style-position : inside;
+        list-style-type : decimal;
+      }
+      .list2 li{
+        margin-left : -35px;
+        margin-bottom : 20px;
+        color : black;
+        font-size : 0.8em;
+      }
+      .normal{
+        margin-top : 40px;
+        color : blue;
+        font-size : 1.5em;
+        font-weight : bold;
+      }
+      .blank {
+        display: inline;
+      }
+      footer{
+        clear : both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homepage.html"><img src="images/logo.jpg" width="270" height="200"></a>
+      </div>
+      <div class="title">
+        <h1>홈페이지</h1>
+        <h5 id="login"><a href="account.html">회원가입</a></h5>
+        <h5 id="login"><a href="login.html">로그인</a></h5>
+        <hr>
+        <h2 id="mainmenu">
+          <ul>
+            <li class="menus"><a href="guide.html">자전거길 안내</a></li>
+            <li>|</li>
+            <li class="menus"><a href="safe.html">자전거 안전교육</a></li>
+            <li>|</li>
+            <li class="menus"><a href="info.html">안내사항</a></li>
+          </ul>
+        </h2>
+      </div>
+    </header>
+    <div id=contents>
+      <h3>자전거 안전 이용 수칙</h3>
+       <div id="lists">
+        <div class="list">
+          <div class="bold">자전거 안전 5대 수칙</div>
+          <ul>
+            <li>생명을 지켜주는 안전모쓰기</li>
+            <li>야간운행에는 라이트 켜기</li>
+            <li>과속금지!안전속도 지키기</li>
+            <li>휴대전화·이어폰 사용않기</li>
+            <li>음주운전도 당연히 안하기</li>
+          </ul>
+        </div>
+        <div class="blank"></div>
+        <div class="list2">
+          <div class="normal">운전자 보행자 안전수칙</div>
+            <ul>
+              <li>차량 운전자는 자전거와 안전거리를 유지 합시다.</li>
+              <li>자전거 도로에 차량을 불법 주·정차하지 맙시다.</li>
+              <li>차량 우회전시 직진하는 자전거를 유의합시다.</li>
+              <li>운전자, 보행자는 자전거 차선을 이용하지 맙시다.</li>
+              <li>자전거·보행자 겸용도로에서는 주위를 잘 살펴서 길을 건넙시다.</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="hr">
+        <h3>교육자료</h3>
+        <video src="video/campain.mp4" controls width="50%" height="auto"></video>
+    </div>
+    <footer>
+      copyright ⓒ 2018 by 11조 All Page Content is property of 11조
+    </footer>
+  </body>
+</html>

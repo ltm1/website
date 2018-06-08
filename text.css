@@ -1,0 +1,16 @@
+textarea {
+  margin-top: 30px;
+}
+input {
+  margin-bottom: 30px;
+}
+.review {
+  width: 70%;
+}
+div > div {
+  text-align: left;
+  display: inline-block;
+}
+#contents {
+  text-align: center;
+}
